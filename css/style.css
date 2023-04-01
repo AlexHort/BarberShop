@@ -318,6 +318,7 @@ body {
     border: 1px solid var(--text-color);
     color: var(--white-color);
     margin-bottom: 35px;
+
 }
 
 .hero-button:hover,
@@ -416,13 +417,28 @@ body {
 
     .container {}
 
-    .hero-title {}
+    .hero-container {
+        display: flex;
+        margin-bottom: 100px;
+    }
 
-    .hero-button {}
+    .hero-secondary-container {
+        padding-top: 15px;
+    }
 
-    .hero-text {}
+    .hero-title {
+        text-align: start;
+        margin-left: 0;
+        margin-bottom: 0;
+        font-size: 40px;
+        width: 300px;
 
-    .hero-secondary-button {}
+    }
+
+    .hero-button {
+        padding: 9.5px 25px 9.5px 25px;
+    }
+
 }
 
 
@@ -557,7 +573,50 @@ body {
 
     /* ------------hero------------ */
 
+    .hero {
+        padding: 60px;
+        flex-direction: column;
+        height: 1000px;
+    }
 
+    .container {}
+
+    .hero-container {}
+
+    .hero-title {
+        font-family: 'Playfair Display';
+        font-weight: 900;
+        font-size: 70px;
+        width: 620px;
+        margin-right: 60px;
+
+    }
+
+    .hero-secondary-container {
+        padding-top: 35px;
+    }
+
+    .hero-button {
+        margin-left: 0;
+        padding: 9.5px 25px 9.5px 25px;
+        font-style: normal;
+        margin-bottom: 25px;
+    }
+
+    .hero-text {
+        width: 301px;
+        text-align: start;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+
+    .hero-secondary-button {
+        margin-top: auto;
+        margin-left: 0;
+        padding: 19px 51px 19px 51px;
+        font-size: 20px;
+    }
 
 
 }
