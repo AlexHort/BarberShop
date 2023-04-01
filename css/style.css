@@ -219,6 +219,7 @@ body {
 .header {
     padding-top: 18px;
     padding-bottom: 18px;
+    background-color: var(--main-secondary-color);
 }
 
 .container {
@@ -362,6 +363,32 @@ body {
     color: var(--svg-color);
 }
 
+/* -------------------Benefit Section------------------- */
+.benefit-section {}
+
+.benefit-container {
+    padding: 20px;
+}
+
+.container {}
+
+.benefit-item {}
+
+.point {}
+
+.benefit-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.benefit-svg {}
+
+.benefit-title {}
+
+.benefit-text {}
+
 
 /* -----------TABLET----------- */
 
@@ -439,6 +466,7 @@ body {
         padding: 9.5px 25px 9.5px 25px;
     }
 
+    /* --------------Benefit Section-------------- */
 }
 
 
@@ -573,6 +601,11 @@ body {
 
     /* ------------hero------------ */
 
+    .hero-section {
+        background-image: linear-gradient(to bottom, #3B322D 75%,
+                #251D1A 25%);
+    }
+
     .hero {
         padding: 60px;
         flex-direction: column;
@@ -617,6 +650,8 @@ body {
         padding: 19px 51px 19px 51px;
         font-size: 20px;
     }
+
+    /* --------------Benefit Section-------------- */
 
 
 }
